@@ -10,7 +10,7 @@ GO
 SET ANSI_PADDING ON
 GO
 
-CREATE TABLE [Insert Schema Name].[Insert Fact Staging Table Name](
+CREATE TABLE [CRIME].[FACTS](
 	[FIPS ID] [int] IDENTITY (1,1) NOT NULL,
 	[State] [varchar](8000) NULL,
 	[StateID] [int] NULL,
